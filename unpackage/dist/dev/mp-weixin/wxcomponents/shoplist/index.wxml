@@ -1,0 +1,11 @@
+<view class="box">
+	<view class="title">{{list.title}}</view>
+	<view class="list">
+		<view class="item" wx:for="{{list.shop}}" wx:key="{{index}}">
+			
+			<image data-hi="{{item.text}}" bindtap="tapskip" src="{{item.url}}" class="img"></image>
+			<view data-hi="{{item.text}}" bindtap="tapskip" class="ruizhitx {{item.text === '苹果'? 'onclick': ''}}">{{item.text}}</view>
+			
+		</view>
+	</view>
+</view>

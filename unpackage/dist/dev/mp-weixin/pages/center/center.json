@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "myul": "/wxcomponents/myul/index",
+    "myli": "/wxcomponents/myli/index",
+    "mybody": "/wxcomponents/mybody/index"
+  }
+}

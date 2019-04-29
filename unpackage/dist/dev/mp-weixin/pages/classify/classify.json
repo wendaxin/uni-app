@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "myseek": "/wxcomponents/seek/index",
+    "myshoplist": "/wxcomponents/shoplist/index",
+    "mybody": "/wxcomponents/mybody/index"
+  }
+}

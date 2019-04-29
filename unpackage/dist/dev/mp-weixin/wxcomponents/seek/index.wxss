@@ -1,0 +1,11 @@
+@import "/static/iconfont.wxss";
+.btn{
+	width: 694rpx;
+	line-height: 64rpx;
+	border-radius: 10rpx;
+	margin: 10rpx auto;
+	background: #E8E8E8;
+	color: #AAAAAA;
+	padding: 0 10rpx;
+	font-size: 26rpx;
+}

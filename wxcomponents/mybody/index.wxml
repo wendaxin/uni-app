@@ -1,0 +1,12 @@
+<view style="padding-top: {{navH+60}}rpx">
+	
+	<view class="navBar" style="padding-top: {{navH}}rpx;">
+		<image bindtap="navBack" class="back" wx:if="{{showbk}}" src="back.png"></image>
+		<view class="text">
+			{{title}}
+		</view>
+	</view>
+	
+	<slot></slot>
+	
+</view>

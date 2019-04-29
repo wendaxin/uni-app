@@ -1,0 +1,25 @@
+.navBar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	background: #fff;
+	display: flex;
+	height: 60rpx;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+
+.back{
+	width: 36rpx;
+	height: 100%;
+	padding: 0 20rpx 0;
+}
+
+.text{
+	line-height: 36rpx;
+	font-size: 36rpx;
+	font-weight: 500;
+	padding-left: 20rpx;
+}

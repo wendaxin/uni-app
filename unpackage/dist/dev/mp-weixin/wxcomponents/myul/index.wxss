@@ -1,0 +1,5 @@
+.collect{
+	height: 158rpx;
+	display: flex;
+	flex-flow: row nowrap;
+}

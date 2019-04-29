@@ -1,0 +1,4 @@
+<view class="btn_top" wx:if="{{showbtntop}}" bindtap="scrollTop">
+	<image class="icon" src="btn_1.png"/>
+	<text>顶部</text>
+</view>

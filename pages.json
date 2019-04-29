@@ -1,0 +1,96 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"usingComponents": {
+					"myseek": "/wxcomponents/seek/index",
+					"btntop": "/wxcomponents/btntop/index",
+					"mybody": "/wxcomponents/mybody/index"
+				}
+			}
+		},{
+			"path": "pages/shoplist/shoplist",
+			"style": {
+				"usingComponents": {
+					"mylist": "/wxcomponents/mylist/index",
+					"btntop": "/wxcomponents/btntop/index",
+					"mybody": "/wxcomponents/mybody/index"
+				}
+			}
+		},
+		{
+		    "path" : "pages/shopdetails/shopdetails",
+		    "style" : {
+				"usingComponents": {
+					"mybody": "/wxcomponents/mybody/index"
+				}
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"usingComponents": {
+					"myseek": "/wxcomponents/seek/index",
+					"myshoplist": "/wxcomponents/shoplist/index",
+					"mybody": "/wxcomponents/mybody/index"
+				}
+			}
+		},
+		{
+			"path": "pages/center/center",
+			"style": {
+				"usingComponents": {
+					"myul": "/wxcomponents/myul/index",
+					"myli": "/wxcomponents/myli/index",
+					"mybody": "/wxcomponents/mybody/index"
+				}
+			}
+		},
+		{
+			"path": "pages/shopcart/shopcart",
+			"style": {
+				"usingComponents": {
+					"mybody": "/wxcomponents/mybody/index"
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationStyle": "custom",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#585C64",
+		"selectedColor": "#EA449F",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/img/tabBar_a.png",
+				"selectedIconPath": "/static/img/tabBar_1.png"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"text": "分类",
+				"iconPath": "/static/img/tabBar_b.png",
+				"selectedIconPath": "/static/img/tabBar_2.png"
+			},
+			{
+				"pagePath": "pages/shopcart/shopcart",
+				"text": "购物车",
+				"iconPath": "/static/img/tabBar_c.png",
+				"selectedIconPath": "/static/img/tabBar_3.png"
+			},
+			{
+				"pagePath": "pages/center/center",
+				"text": "个人中心",
+				"iconPath": "/static/img/tabBar_d.png",
+				"selectedIconPath": "/static/img/tabBar_4.png"
+			}
+		]
+	}
+}

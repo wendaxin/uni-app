@@ -1,0 +1,12 @@
+<view class="list">
+	<view class="item" wx:for="{{list}}" wx:key="{{index}}">
+		<image src="{{item.url}}" class="img"></image>
+		<view class="price">
+			<text class="bold">￥{{item.price_1}}</text>
+			<text class="through">￥{{item.price_2}}</text>
+			<text class="discount">{{item.price_3}}折</text>
+		</view>
+		<view class="text">{{item.text}}</view>
+		<view class="layer" data-clr="{{item.color}}" data-id="{{item.id}}" bindtap="skip"></view>
+	</view>
+</view>

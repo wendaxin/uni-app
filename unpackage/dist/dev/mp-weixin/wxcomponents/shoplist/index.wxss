@@ -1,0 +1,43 @@
+.box {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.title {
+	font-size: 28rpx;
+	color: #222;
+	line-height: 94rpx;
+	padding-left: 58rpx;
+	font-weight: 600;
+}
+
+.list {
+	margin: 0 42rpx;
+	display: flex;
+	flex-flow: row wrap;
+	border-bottom: 2rpx solid #DEDEDE;
+}
+
+.item {
+	flex: 1;
+	min-width: 32%;
+	max-width: 166rpx;
+	height: 204rpx;
+	text-align: center;
+	font-size: 28rpx;
+	line-height: 32rpx;
+	color: #A8A8A8;
+}
+
+.img {
+	width: 96rpx;
+	height: 110rpx;
+}
+.ruizhitx{
+	text-decoration:line-through;
+}
+.onclick{
+	text-decoration-color: transparent;
+	text-decoration: none;
+	color: #000000;
+}
